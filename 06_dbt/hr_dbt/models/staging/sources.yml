@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: hr_source
+    database: hr_source_db
+    schema: public
+    description: "Raw HR operational database tables"
+    tables:
+      - name: employees
+        description: "Raw employee records from HR system"
+      - name: departments
+        description: "Company departments"
+      - name: salaries
+        description: "Employee salary history"
+      - name: performance_reviews
+        description: "Employee performance review records"
+      - name: projects
+        description: "Company projects"
+      - name: employee_projects
+        description: "Employee to project assignments"
+      - name: leave_requests
+        description: "Employee leave request records"

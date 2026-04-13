@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: dim_employees
+    description: "Employee dimension with SCD Type 2 history tracking"
+    columns:
+      - name: employee_id
+        description: "Unique employee identifier"
+        tests:
+          - unique
+          - not_null
+      - name: email
+        tests:
+          - unique
+          - not_null
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['active', 'terminated', 'inactive']
+      - name: tenure_years
+        tests:
+          - not_null
+
+  - name: dim_departments
+    description: "Department dimension"
+    columns:
+      - name: department_id
+        tests:
+          - unique
+          - not_null
+      - name: department_name
+        tests:
+          - not_null
+
+  - name: fct_employee_snapshot
+    description: "Core fact table — one row per employee"
+    columns:
+      - name: employee_id
+        tests:
+          - unique
+          - not_null
+      - name: current_salary
+        tests:
+          - not_null
+      - name: is_active
+        tests:
+          - not_null

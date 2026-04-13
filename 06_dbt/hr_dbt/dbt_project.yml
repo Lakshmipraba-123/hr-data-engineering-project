@@ -1,0 +1,27 @@
+name: 'hr_dbt'
+version: '1.0.0'
+config-version: 2
+
+profile: 'hr_dbt'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+seed-paths: ["seeds"]
+
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  hr_dbt:
+    staging:
+      +materialized: view        # Staging = views (lightweight)
+      +schema: hr_staging
+    dimensions:
+      +materialized: table       # Dimensions = tables (persistent)
+      +schema: hr_warehouse
+    facts:
+      +materialized: table       # Facts = tables (persistent)
+      +schema: hr_warehouse
+    marts:
+      +materialized: view        # Marts = views for analysts
+      +schema: hr_marts

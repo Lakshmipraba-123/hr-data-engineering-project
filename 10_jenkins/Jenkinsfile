@@ -1,0 +1,108 @@
+// ============================================================
+// FILE: 10_jenkins/Jenkinsfile
+// PURPOSE: CI/CD pipeline — runs on every GitHub push
+//          Stage 1: Test → Stage 2: Build → Stage 3: Run ETL
+// ============================================================
+
+pipeline {
+    // Run on any available Jenkins agent
+    agent any
+
+    // Environment variables available to all stages
+    environment {
+        PROJECT_NAME = "hr-data-engineering"
+        DOCKER_IMAGE = "hr-etl-pipeline"
+        PYTHON_PATH  = "02_etl_pipeline"
+    }
+
+    stages {
+
+        // ── STAGE 1: Checkout ─────────────────────────────────
+        // Pull latest code from GitHub
+        stage('Checkout') {
+            steps {
+                echo '📥 Checking out code from GitHub...'
+                checkout scm
+            }
+        }
+
+        // ── STAGE 2: Install Dependencies ─────────────────────
+        stage('Install Dependencies') {
+            steps {
+                echo '📦 Installing Python dependencies...'
+                sh '''
+                    python -m pip install --upgrade pip
+                    pip install -r requirements.txt
+                '''
+            }
+        }
+
+        // ── STAGE 3: Run Tests ────────────────────────────────
+        // This is the most important stage
+        // If tests fail — pipeline stops here, nothing deploys
+        stage('Run Tests') {
+            steps {
+                echo '🧪 Running unit tests...'
+                sh '''
+                    pytest 02_etl_pipeline/tests/test_etl.py \
+                        -v \
+                        --tb=short \
+                        --junit-xml=test-results.xml
+                '''
+            }
+            // Publish test results in Jenkins UI
+            post {
+                always {
+                    junit 'test-results.xml'
+                }
+            }
+        }
+
+        // ── STAGE 4: Build Docker Image ───────────────────────
+        stage('Build Docker Image') {
+            steps {
+                echo '🐳 Building Docker image...'
+                sh '''
+                    docker build \
+                        -t ${DOCKER_IMAGE}:latest \
+                        -t ${DOCKER_IMAGE}:${BUILD_NUMBER} \
+                        -f 09_docker/Dockerfile .
+                '''
+            }
+        }
+
+        // ── STAGE 5: Run ETL Pipeline ─────────────────────────
+        stage('Run ETL Pipeline') {
+            steps {
+                echo '🚀 Running HR ETL pipeline...'
+                sh '''
+                    docker run --rm \
+                        --network host \
+                        ${DOCKER_IMAGE}:latest
+                '''
+            }
+        }
+
+        // ── STAGE 6: Run dbt Models ───────────────────────────
+        stage('Run dbt Models') {
+            steps {
+                echo '🔄 Running dbt transformations...'
+                sh '''
+                    cd 06_dbt/hr_dbt
+                    dbt run
+                    dbt test
+                '''
+            }
+        }
+    }
+
+    // ── Post-pipeline notifications ───────────────────────────
+    post {
+        success {
+            echo '✅ Pipeline completed successfully!'
+        }
+        failure {
+            echo '❌ Pipeline failed! Check logs above.'
+        }
+    }
+}

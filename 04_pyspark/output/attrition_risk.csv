@@ -1,0 +1,471 @@
+employee_id,full_name,job_title,avg_rating,amount,tenure_years,risk_score,risk_level
+343,Brenda Li,CS Specialist,2.8,104603.50,7.32,6,HIGH
+374,Melanie Bell,Data Analyst,2.8,93823.73,5.03,6,HIGH
+212,Kenneth Ward,CS Specialist,2.8,110872.17,6.14,6,HIGH
+390,Alison Parker,Senior Analyst,2.8,77268.64,7.53,6,HIGH
+430,Kim Shelton,Senior PM,2.8,141047.62,10.39,6,HIGH
+40,Eric Farmer,Talent Acquisition,2.8,110590.86,11.28,6,HIGH
+398,Ryan Stevens,Analytics Engineer,2.5,134121.57,9.96,6,HIGH
+87,David Bailey,Legal Counsel,2.5,81855.40,10.12,6,HIGH
+83,John Foster,Engineering Manager,2.5,118799.26,6.18,5,HIGH
+341,Brent Cook,Senior AE,2.5,133452.01,9.14,5,HIGH
+396,Vincent Whitaker,HR Business Partner,2.5,86336.49,5.26,5,HIGH
+84,Stephen Hickman,Senior Engineer,2.3,137549.09,10.05,5,HIGH
+194,Joshua Hayes,CS Specialist,2.5,77250.59,3.38,5,HIGH
+58,James Davis,Senior Data Engineer,2.5,122847.35,3.95,5,HIGH
+248,Mark Steele,CS Specialist,3.8,81228.09,6.38,4,HIGH
+265,Julie Taylor,CS Specialist,4.0,70675.38,10.1,4,HIGH
+282,Charles Harrington,CS Specialist,3.8,74685.65,6.78,4,HIGH
+292,Michael Jordan,Software Engineer,3.3,119733.01,7.13,4,HIGH
+299,Charles Landry,Talent Acquisition,4.3,100037.10,6.19,4,HIGH
+321,Christopher Foster,Account Executive,4.0,79767.57,6.78,4,HIGH
+347,Donna Johnson,Engineering Manager,4.0,136689.65,11.03,4,HIGH
+350,Judy Fox,Operations Manager,2.8,158332.89,10.21,4,HIGH
+406,Jeffrey Maxwell,Data Engineer,3.5,126433.62,9.99,4,HIGH
+416,Scott Harrison,CS Specialist,4.0,94394.65,6.13,4,HIGH
+471,Rodney Parsons,Content Strategist,3.3,73930.98,7.24,4,HIGH
+475,Crystal Andrews,CS Specialist,3.5,69974.10,8.84,4,HIGH
+482,Jon Smith,CS Specialist,3.3,85911.25,10.14,4,HIGH
+496,Julia Kline,Content Strategist,2.7,83991.86,4.7,4,HIGH
+109,Nicole Johnson,Junior Developer,3.8,89232.75,5.63,4,HIGH
+14,Barbara Bush,Data Analyst,3.8,100165.51,10.51,4,HIGH
+157,Jamie Fisher,Analytics Engineer,4.0,115869.52,10.95,4,HIGH
+161,Amanda Navarro,Analytics Engineer,3.3,111506.60,7.53,4,HIGH
+73,Eric Phillips,Financial Analyst,4.0,89027.73,10.29,4,HIGH
+93,Joseph Preston,Senior Analyst,3.0,87468.99,8.64,4,HIGH
+95,James Walters,Group PM,4.0,89440.92,6.79,4,HIGH
+110,Kimberly Jenkins,Associate PM,4.5,77285.13,7.06,4,HIGH
+107,Terri Brady,Content Strategist,3.8,109422.09,7.25,4,HIGH
+38,Rita Harrell,Senior Counsel,3.8,136481.37,6.21,4,HIGH
+198,Matthew Beard,Operations Analyst,3.8,109527.34,6.58,4,HIGH
+9,Matthew Moore,Senior Data Engineer,4.5,122349.14,5.56,4,HIGH
+15,Donna Mejia,Associate PM,3.8,92165.60,9.93,4,HIGH
+220,Charles Soto,COO,2.8,337772.63,10.37,4,HIGH
+223,Catherine Gibbs,Growth Marketer,3.3,80550.19,7.44,4,HIGH
+298,Rachel Byrd,Analytics Engineer,4.3,121246.25,8.6,4,HIGH
+337,Amy Levine,Group PM,3.3,108335.72,5.18,4,HIGH
+349,Alfred Baker,Content Strategist,4.3,87285.57,9.13,4,HIGH
+375,Danny Ramirez,Legal Counsel,3.0,100875.13,7.44,4,HIGH
+377,Chelsea Barrett,Talent Acquisition,3.3,82003.87,6.73,4,HIGH
+385,Nicole Moore,CS Specialist,3.5,100136.27,10.44,4,HIGH
+392,James Dougherty,HR Specialist,3.3,105956.63,8.95,4,HIGH
+414,Erin Macias,Senior Data Engineer,3.5,141133.49,5.78,4,HIGH
+474,Daniel Stein,Legal Counsel,4.3,73216.36,11.01,4,HIGH
+485,Dennis Bell,CS Team Lead,2.8,180829.45,5.52,4,HIGH
+494,Michelle Rivera,Account Executive,3.5,112330.91,9.17,4,HIGH
+23,Jeremy Johnson,Software Engineer,3.8,123830.64,5.92,4,HIGH
+44,Christopher Tucker,HR Business Partner,3.5,83292.88,10.11,4,HIGH
+82,Leslie Green,HR Specialist,3.5,82581.61,5.94,4,HIGH
+94,Joseph Jacobs,Account Executive,3.8,88027.88,5.45,4,HIGH
+146,Stephen Solis,Sales Manager,2.8,170932.39,5.88,4,HIGH
+51,John Brown,Legal Counsel,4.0,75062.88,10.93,4,HIGH
+74,Beth Daniels,Legal Counsel,3.8,101532.66,5.95,4,HIGH
+86,Charles Lewis,Legal Counsel,3.3,111581.76,6.77,4,HIGH
+2,John Taylor,Accountant,3.8,108349.56,9.54,4,HIGH
+28,Michael Osborn,HR Specialist,3.8,106778.43,8.93,4,HIGH
+168,Hunter Green,Senior Analyst,4.0,91011.33,5.71,4,HIGH
+185,Laura Knight,Account Executive,4.0,83115.02,10.59,4,HIGH
+197,Tony Kelly,Accountant,3.5,104275.49,6.89,4,HIGH
+259,Andrea Davis,Accountant,3.8,109572.91,9.35,4,HIGH
+268,Lori Campbell,Accountant,3.5,108908.80,6.2,4,HIGH
+330,Darren Young,Senior Engineer,4.5,119158.52,8.98,4,HIGH
+361,Laura Wilson,Data Engineer,3.5,134143.36,7.62,4,HIGH
+379,Sandra Bell,Associate PM,3.5,88558.34,8.2,4,HIGH
+388,Jason Hunt,Operations Analyst,3.5,98960.82,5.41,4,HIGH
+394,Adrian Burgess,Software Engineer,3.8,121532.01,8.3,4,HIGH
+417,Laura Vargas,Data Analyst,4.0,102917.09,5.3,4,HIGH
+464,Paul Miller,Growth Marketer,3.3,99056.60,7.46,4,HIGH
+500,Ryan Carney,Senior Analyst,3.3,93399.35,8.21,4,HIGH
+60,Emily Joyce,Junior Developer,3.8,65407.73,9.61,4,HIGH
+188,Melissa Short,Junior Developer,4.3,77045.64,9.49,4,HIGH
+104,Rachel Flynn,Data Engineer,4.3,122044.47,10.61,4,HIGH
+133,Steven Ramos,Senior Data Engineer,4.0,111981.48,7.65,4,HIGH
+196,Anthony Rosales,Data Analyst,4.0,90473.84,8.19,4,HIGH
+111,Joseph Cobb,HR Business Partner,3.0,81160.46,9.45,4,HIGH
+31,Laura Henderson,Accountant,3.3,106341.49,10.21,4,HIGH
+118,Sheila Wilson,Accountant,4.3,79329.35,6.84,4,HIGH
+128,Elizabeth Nguyen,Accountant,3.8,74306.29,6.25,4,HIGH
+180,Daniel Johnson,Growth Marketer,3.8,112430.61,5.98,4,HIGH
+176,David Caldwell,Sales Development Rep,3.8,78004.70,7.58,4,HIGH
+184,Curtis Barton,CS Specialist,3.3,90754.98,9.22,4,HIGH
+59,Michael Jenkins,Legal Counsel,4.0,102239.47,10.36,4,HIGH
+102,Amy Davenport,Legal Counsel,4.3,109097.81,8.76,4,HIGH
+1,Danielle Johnson,Sales Development Rep,3.8,73180.46,6.61,4,HIGH
+3,Erica Mcclain,Engineering Manager,3.3,112000.84,9.81,4,HIGH
+7,Jeffrey Lawrence,Growth Marketer,4.0,82820.66,11.18,4,HIGH
+182,Randy Espinoza,Legal Director,2.8,227133.04,9.99,4,HIGH
+206,Michael Chavez,Financial Analyst,4.5,76924.46,6.07,4,HIGH
+207,John Martinez,Financial Analyst,4.3,93335.35,8.01,4,HIGH
+216,Curtis Smith,Senior Counsel,2.8,159237.52,6.45,4,HIGH
+235,Rebekah Serrano,Financial Analyst,3.5,102904.98,10.07,4,HIGH
+240,Pamela Navarro,Data Engineer,4.0,131418.33,7.02,4,HIGH
+242,Yvonne Chambers,Legal Counsel,3.8,108176.53,6.7,4,HIGH
+287,Jimmy Cohen,Senior Data Engineer,3.5,129980.24,6.39,4,HIGH
+289,Tiffany Hodges,Engineering Manager,2.5,145334.96,9.58,4,HIGH
+329,Sophia Torres,Associate PM,2.0,71274.37,2.9,4,HIGH
+359,Oscar Harper,Senior CSM,4.0,139461.76,6.27,4,HIGH
+401,Richard Burch,Engineering Manager,3.8,137573.70,8.36,4,HIGH
+405,Randy Collins,Senior Data Engineer,3.5,112258.39,5.51,4,HIGH
+442,James Cooke,Sales Development Rep,3.8,83001.93,8.65,4,HIGH
+493,Justin Atkins,HR Business Partner,3.5,94547.21,10.47,4,HIGH
+78,Casey Jones,Software Engineer,3.5,136466.16,7.28,4,HIGH
+91,Alan Montoya,Engineering Manager,3.5,117344.73,6.19,4,HIGH
+96,William King,Data Analyst,3.5,91126.71,10.42,4,HIGH
+143,Patricia Dalton,Senior Data Engineer,3.5,109274.29,9.47,4,HIGH
+33,Allison Maddox,HR Specialist,3.5,89397.21,11.09,4,HIGH
+122,Darrell Lam,Talent Acquisition,4.3,111948.21,8.05,4,HIGH
+124,April Drake,Senior Analyst,3.5,106182.41,7.93,4,HIGH
+154,Devon Hall,Senior Analyst,4.0,80999.48,8.68,4,HIGH
+134,William Leon,Associate PM,3.5,80312.65,8.4,4,HIGH
+26,Douglas Taylor,Content Strategist,3.8,112516.67,6.81,4,HIGH
+100,Andrea Patterson,Growth Marketer,3.3,70538.81,11.12,4,HIGH
+142,John Douglas,CMO,2.8,435633.94,11.19,4,HIGH
+116,Mark Lin,Account Executive,3.5,95651.61,6.53,4,HIGH
+21,Frank Gray,CS Team Lead,2.8,195049.26,7.55,4,HIGH
+218,Tammy King,Financial Analyst,3.5,86066.06,3.15,3,MEDIUM
+254,Cindy Jimenez,Operations Analyst,3.5,102090.17,3.76,3,MEDIUM
+261,Tyrone Moran,Legal Counsel,3.0,75285.02,2.62,3,MEDIUM
+275,Louis Kennedy,Senior AE,3.3,130227.59,4.8,3,MEDIUM
+295,Christine Allen,Operations Analyst,3.5,82613.27,8.85,3,MEDIUM
+297,Jonathan Smith,Sales Development Rep,4.5,100995.27,3.37,3,MEDIUM
+320,Tammy Ballard,CS Specialist,3.8,75048.09,5.06,3,MEDIUM
+323,Brenda Carson,Sales Development Rep,3.3,107908.00,4.96,3,MEDIUM
+333,Diana Bass,HR Specialist,4.0,105134.40,4.34,3,MEDIUM
+336,Melissa Garcia,HR Specialist,3.5,75104.58,5.03,3,MEDIUM
+339,Stacy Holloway,Legal Counsel,3.3,76797.63,9.73,3,MEDIUM
+365,Elizabeth Brooks,Analytics Engineer,3.5,123532.19,8.69,3,MEDIUM
+384,Larry Nguyen,Financial Analyst,4.0,107560.74,9.84,3,MEDIUM
+412,Gregory Mejia,Finance Manager,4.0,140917.25,2.87,3,MEDIUM
+418,William Collins,Content Strategist,4.0,74674.74,3.59,3,MEDIUM
+431,Kristina Holland,HR Specialist,3.8,89651.04,10.16,3,MEDIUM
+439,Clarence Santiago,Group PM,3.0,75026.43,2.63,3,MEDIUM
+487,Tina Mendoza,Group PM,3.8,80786.19,8.18,3,MEDIUM
+499,Laurie Acosta,Growth Marketer,3.8,75966.63,9.94,3,MEDIUM
+130,Erica Orr,Senior Data Engineer,4.0,110310.63,6.16,3,MEDIUM
+186,Michael Patterson,HR Manager,2.3,159488.68,4.98,3,MEDIUM
+244,Thomas Pearson,Talent Acquisition,3.8,92356.25,6.55,3,MEDIUM
+18,Francisco Kelly,Senior Analyst,3.5,108827.44,6.74,3,MEDIUM
+190,Jasmine Graham,Group PM,3.0,96173.94,2.4,3,MEDIUM
+252,Mallory Smith,Financial Analyst,4.0,87149.16,3.42,3,MEDIUM
+352,Brittney Hayes,Senior Engineer,3.5,128335.29,7.52,3,MEDIUM
+364,Jessica Edwards,Sales Development Rep,3.0,112972.78,5.97,3,MEDIUM
+370,Elizabeth Jenkins,Financial Analyst,3.3,77088.30,4.08,3,MEDIUM
+423,Shannon Pacheco,Operations Analyst,4.0,95882.93,8.08,3,MEDIUM
+433,Justin Cummings,Junior Developer,4.0,85617.44,8.73,3,MEDIUM
+444,William Fernandez,Associate PM,4.0,84257.70,2.32,3,MEDIUM
+453,Steven Campbell,Senior Data Engineer,4.0,139795.18,4.79,3,MEDIUM
+465,Anthony Galvan,HR Specialist,4.0,79707.31,5.58,3,MEDIUM
+476,Kelly Smith,Associate PM,3.8,89726.90,5.28,3,MEDIUM
+16,Melissa Delacruz,Analytics Engineer,3.7,128357.29,4.81,3,MEDIUM
+173,Jeffrey Jones,HR Specialist,3.5,105051.91,10.6,3,MEDIUM
+237,Scott Harrison,HR Specialist,4.0,113604.30,6.11,3,MEDIUM
+293,Amanda Knight,HR Business Partner,3.8,96818.67,8.22,3,MEDIUM
+17,Joshua Reid,Content Strategist,3.8,106095.95,5.08,3,MEDIUM
+42,Sarah Koch,Legal Counsel,4.0,100301.24,6.05,3,MEDIUM
+163,Anthony Rogers,Financial Analyst,3.7,104603.33,4.4,3,MEDIUM
+169,Jason Murphy,Senior Counsel,2.7,176027.86,4.83,3,MEDIUM
+274,Jesus Rowe,CS Specialist,3.8,104630.38,10.54,3,MEDIUM
+303,Ashley Andrews,Account Executive,3.5,74265.28,6.26,3,MEDIUM
+314,David Ryan,Sales Development Rep,3.3,111222.78,5.06,3,MEDIUM
+371,Miranda Griffith,Senior CSM,4.3,131542.14,6.39,3,MEDIUM
+381,Chad Figueroa,Senior Analyst,4.0,78277.48,10.76,3,MEDIUM
+389,Russell Campbell,Legal Counsel,3.0,106279.11,3.0,3,MEDIUM
+437,Kyle Bennett,Software Engineer,4.0,140207.04,5.69,3,MEDIUM
+456,Monique Williams,Senior Engineer,3.0,119905.90,3.1,3,MEDIUM
+480,Angela Myers,Operations Analyst,3.5,101439.76,3.28,3,MEDIUM
+247,Mathew Santiago,Senior Engineer,3.5,141284.63,8.55,3,MEDIUM
+32,Paul Carlson,Data Analyst,3.5,95997.97,3.32,3,MEDIUM
+76,Samantha Schmidt,Accountant,3.0,84365.26,10.32,3,MEDIUM
+155,Jasmine Brown,Accountant,4.0,111045.69,4.35,3,MEDIUM
+201,Angela Allen,Content Strategist,3.5,90299.20,3.18,3,MEDIUM
+57,John Kennedy,CS Specialist,3.3,72090.61,4.36,3,MEDIUM
+22,Gabrielle Cameron,Legal Counsel,3.8,81468.62,10.33,3,MEDIUM
+137,Emily Walker,Legal Counsel,3.8,109094.10,7.9,3,MEDIUM
+214,Brandon Brown,Account Executive,4.3,103336.57,6.31,3,MEDIUM
+241,Anthony Perez,Content Strategist,3.8,99286.44,10.93,3,MEDIUM
+284,Melissa Phelps,Data Engineer,4.0,137902.79,4.82,3,MEDIUM
+290,Scott Benson,Software Engineer,4.0,132145.52,10.79,3,MEDIUM
+325,Christine Hahn,CS Specialist,3.5,74806.49,5.7,3,MEDIUM
+368,Julie Watson,CS Specialist,3.8,92257.88,9.07,3,MEDIUM
+449,Erica Young,HR Specialist,3.5,94750.81,3.72,3,MEDIUM
+497,Matthew Lopez,Legal Counsel,4.0,112502.73,2.82,3,MEDIUM
+69,Michelle Barrera,Junior Developer,3.5,74355.32,8.48,3,MEDIUM
+276,Paul Alvarado,Junior Developer,3.8,92310.36,8.7,3,MEDIUM
+47,Joseph Brennan,Senior Data Engineer,5.0,121317.21,4.08,3,MEDIUM
+174,Karen Herring,HR Specialist,3.8,86062.94,7.89,3,MEDIUM
+279,Morgan Alexander,Talent Acquisition,4.0,85411.22,2.33,3,MEDIUM
+63,Donald White,Senior Analyst,3.5,109112.25,3.41,3,MEDIUM
+170,Joshua Bean,Group PM,4.0,114640.74,4.11,3,MEDIUM
+72,Rodney Bernard,Account Executive,4.0,99423.15,3.0,3,MEDIUM
+139,Cheryl Mack,Sales Development Rep,4.0,93602.42,3.53,3,MEDIUM
+199,Angela Black,CS Specialist,3.8,103340.63,8.03,3,MEDIUM
+158,Melissa Cannon,Operations Analyst,4.7,83783.04,4.81,3,MEDIUM
+140,Robert Soto,Legal Director,4.0,195855.47,7.98,2,MEDIUM
+177,Steven Scott,Sales Manager,3.7,188719.81,5.01,2,MEDIUM
+203,Christopher Walker,Data Science Manager,3.5,168842.94,7.15,2,MEDIUM
+221,Edward Shepherd,Senior CSM,3.8,151160.19,6.12,2,MEDIUM
+225,Kenneth Chapman,Financial Analyst,3.0,76527.01,3.99,2,MEDIUM
+229,Glenn Jones,Senior Data Engineer,4.0,145234.19,11.24,2,MEDIUM
+233,Sandra French,Senior Counsel,4.0,176979.00,7.92,2,MEDIUM
+263,Tina Sanchez,Senior CSM,3.8,174781.72,8.82,2,MEDIUM
+280,Renee Smith,Senior CSM,3.8,162036.03,8.83,2,MEDIUM
+300,Danielle Coleman,VP of Product,3.5,263451.40,7.03,2,MEDIUM
+306,Renee Mcgee,Senior AE,4.3,165433.33,6.41,2,MEDIUM
+307,Kimberly Hall,Senior Counsel,3.8,151837.33,5.29,2,MEDIUM
+340,Elizabeth May,CMO,3.5,362947.86,10.92,2,MEDIUM
+348,Michael Kramer,Product Manager,3.5,174663.27,5.78,2,MEDIUM
+363,Matthew Chavez,Senior Counsel,3.7,130251.50,4.21,2,MEDIUM
+378,Anthony Nelson,CS Team Lead,4.0,183570.13,6.03,2,MEDIUM
+383,Robert Peterson,Marketing Coordinator,2.7,326786.57,4.99,2,MEDIUM
+395,David Patel,CFO,4.0,356120.00,7.37,2,MEDIUM
+400,Jenna Butler,Customer Success Manager,3.3,163941.61,9.33,2,MEDIUM
+411,Glenn Hernandez,Finance Manager,3.3,151947.24,10.0,2,MEDIUM
+435,Sabrina Collins,Content Strategist,3.0,109626.34,4.61,2,MEDIUM
+447,Marie Wise,Senior PM,3.8,160407.73,8.47,2,MEDIUM
+455,Lisa Solis,Senior AE,3.0,162217.75,8.93,2,MEDIUM
+457,Morgan Spencer,COO,3.5,457522.33,9.54,2,MEDIUM
+473,Danielle Dean,VP of Product,3.5,281790.79,10.22,2,MEDIUM
+477,John Butler,Data Science Manager,3.3,145784.26,9.83,2,MEDIUM
+484,Kelsey Moss,HR Coordinator,3.0,425540.72,5.62,2,MEDIUM
+37,Teresa Gill,Junior Developer,4.0,92076.47,2.64,2,MEDIUM
+245,Howard Richards,Engineering Manager,4.0,113132.85,2.92,2,MEDIUM
+171,Johnny Miller,Product Manager,3.8,191414.25,10.96,2,MEDIUM
+70,Nicholas Galloway,Marketing Coordinator,3.3,397574.54,6.77,2,MEDIUM
+172,Kaitlyn Williams,CMO,4.0,412606.31,5.33,2,MEDIUM
+12,Jessica Herrera,Sales Development Rep,5.0,85573.15,4.84,2,MEDIUM
+135,Donna Campbell,Senior AE,3.8,142746.52,5.58,2,MEDIUM
+126,Cindy Alvarado,Customer Success Manager,3.8,179681.03,9.16,2,MEDIUM
+13,Christian Carter,Operations Manager,3.3,190233.56,5.13,2,MEDIUM
+46,David Alvarez,Operations Manager,3.8,185545.03,8.47,2,MEDIUM
+65,Lindsey Chase,COO,4.8,374055.86,9.62,2,MEDIUM
+97,Christopher Henderson,Ops Coordinator,3.5,365315.54,6.58,2,MEDIUM
+132,Justin Jordan,Senior Counsel,4.3,178298.78,5.8,2,MEDIUM
+192,Steven Petersen,Senior AE,3.0,182897.41,6.72,2,MEDIUM
+213,Alexis Ferguson,Marketing Manager,4.3,170857.77,6.62,2,MEDIUM
+222,Christopher Wright,Senior Analyst,3.0,80368.73,4.2,2,MEDIUM
+226,Kevin Oliver,Sales Manager,4.0,167523.33,9.6,2,MEDIUM
+227,Stacey Clark,Finance Manager,3.0,159257.79,7.69,2,MEDIUM
+228,Joseph Miller,CS Team Lead,4.0,179744.55,7.2,2,MEDIUM
+231,Kelly Hall,Marketing Manager,3.0,167598.09,6.47,2,MEDIUM
+249,Elaine Morales,Sales Manager,3.8,158520.21,10.66,2,MEDIUM
+255,Kathleen Harris,Sales Manager,4.3,174007.84,9.05,2,MEDIUM
+267,Matthew French,Finance Manager,3.5,195493.26,6.74,2,MEDIUM
+278,Tammy Rivera,VP of Product,3.0,268949.48,9.58,2,MEDIUM
+294,George Miller,CS Specialist,3.3,80033.83,4.77,2,MEDIUM
+331,Paul Watson,Account Executive,3.7,89259.56,4.15,2,MEDIUM
+338,Bruce Hill,Tech Lead,3.5,175399.43,9.21,2,MEDIUM
+344,Mark Hernandez,Operations Manager,3.3,154139.50,11.24,2,MEDIUM
+346,Amber Lindsey,Senior AE,3.5,184770.34,9.41,2,MEDIUM
+357,Charles Miller,CMO,3.5,342754.72,8.76,2,MEDIUM
+360,Shawn Jacobs,Marketing Coordinator,3.5,356235.14,9.6,2,MEDIUM
+367,Marie Davis,Marketing Coordinator,3.5,418689.37,9.64,2,MEDIUM
+397,Charles Hensley,VP of Sales,3.3,243858.84,10.57,2,MEDIUM
+404,Ryan Morales,CS Team Lead,3.5,192612.17,9.95,2,MEDIUM
+429,Nathan Campbell,Associate PM,3.7,84563.82,4.33,2,MEDIUM
+432,Mark Grant,Sales Development Rep,4.0,97078.23,4.7,2,MEDIUM
+459,Justin Hines,Data Engineer,3.8,152451.94,6.64,2,MEDIUM
+492,Jon Mullins,Marketing Coordinator,4.3,423477.14,8.03,2,MEDIUM
+61,Bruce Chandler,Software Engineer,4.0,149253.08,9.43,2,MEDIUM
+243,Barbara Hines,Engineering Manager,3.0,162271.65,8.3,2,MEDIUM
+19,Jacqueline Sutton,Data Science Manager,3.0,176253.17,10.07,2,MEDIUM
+105,Rachel Clark,Data Science Manager,3.5,148663.06,7.04,2,MEDIUM
+113,Jeffrey Velasquez,Data Analyst,3.5,98965.98,3.45,2,MEDIUM
+125,Michael Jones,Analytics Engineer,3.8,153966.88,5.67,2,MEDIUM
+114,Michael Hoover,HR Manager,3.3,189086.23,7.41,2,MEDIUM
+152,Joshua Jones,HR Coordinator,3.3,382121.22,6.42,2,MEDIUM
+64,John Leblanc,CFO,2.0,405802.51,3.74,2,MEDIUM
+71,Sara Glover,CFO,3.3,341246.00,6.43,2,MEDIUM
+141,Jennifer Cruz,Senior Analyst,3.7,84487.24,4.48,2,MEDIUM
+39,Meagan Romero,Marketing Coordinator,3.5,443143.63,7.9,2,MEDIUM
+117,Michael Hicks,Marketing Coordinator,3.3,322700.81,5.65,2,MEDIUM
+119,Gregory Estes,CMO,3.5,440890.88,6.77,2,MEDIUM
+136,Clarence Crane,Marketing Manager,3.8,195301.42,7.29,2,MEDIUM
+30,Michelle Hernandez,VP of Sales,3.3,322460.30,8.56,2,MEDIUM
+68,Gabriel Tucker,Sales Manager,3.8,153476.53,7.65,2,MEDIUM
+120,Benjamin Carlson,VP of Sales,3.5,287881.66,5.4,2,MEDIUM
+175,Mary Howell,Senior AE,3.5,148392.83,7.22,2,MEDIUM
+151,Katie Boyd,Customer Success Manager,3.5,179616.51,7.21,2,MEDIUM
+20,Chelsea Jackson,Legal Director,4.5,194172.07,7.12,2,MEDIUM
+29,William Davis,Senior Counsel,3.8,165994.26,10.48,2,MEDIUM
+54,Jeremy Whitehead,Legal Director,4.0,199502.56,5.66,2,MEDIUM
+138,Dylan Williams,Operations Analyst,3.0,97720.87,3.2,2,MEDIUM
+5,Jeffery Wagner,Operations Manager,3.8,165412.78,10.84,2,MEDIUM
+156,Mark Owens,Finance Manager,4.0,198564.11,10.23,2,MEDIUM
+187,Casey Holland,VP of Sales,3.8,253728.41,11.07,2,MEDIUM
+234,Ronald Stephens,Senior CSM,3.3,157107.83,8.75,2,MEDIUM
+239,Amber Kim,Legal Director,3.8,242904.42,10.61,2,MEDIUM
+253,Robert Lopez,VP of Sales,3.8,241421.85,5.13,2,MEDIUM
+262,Janice Perry,Sales Manager,2.5,199515.56,3.07,2,MEDIUM
+288,Wendy Francis,Analytics Engineer,3.5,133505.53,3.9,2,MEDIUM
+305,Joshua Knight,Senior Data Engineer,3.3,148242.84,10.45,2,MEDIUM
+313,Mark Perry,CFO,3.8,388793.93,7.87,2,MEDIUM
+351,Thomas Strickland,HR Coordinator,2.0,342328.14,2.55,2,MEDIUM
+353,Sonia Williams,Engineering Manager,4.0,119189.75,2.41,2,MEDIUM
+358,Cameron Hill,Product Manager,3.5,186850.89,5.75,2,MEDIUM
+372,Caroline Bell,Data Engineer,4.0,107906.11,2.65,2,MEDIUM
+393,Kathryn Roberts,HR Coordinator,3.8,365141.54,9.24,2,MEDIUM
+419,Benjamin Wood,Operations Manager,3.8,178288.85,6.4,2,MEDIUM
+420,Chase Lin,Senior AE,4.5,183675.05,9.75,2,MEDIUM
+426,Toni Miller,VP of Product,3.8,287234.85,8.35,2,MEDIUM
+436,David Fletcher,CMO,3.8,396367.67,9.84,2,MEDIUM
+445,Benjamin Rogers,Ops Coordinator,3.8,436141.17,9.05,2,MEDIUM
+468,Katherine Harrison,CS Team Lead,3.5,196265.61,11.2,2,MEDIUM
+486,Lisa Thompson,Operations Analyst,4.0,102676.30,3.38,2,MEDIUM
+491,Zachary Hays,VP of Product,2.0,342046.88,3.23,2,MEDIUM
+498,Michael Salinas,VP of Sales,3.8,309265.23,6.75,2,MEDIUM
+195,Ashley Barnett,Senior Engineer,3.5,147295.41,5.56,2,MEDIUM
+88,Natasha Wood,Data Science Manager,3.8,168934.32,8.6,2,MEDIUM
+98,Bradley Cook,CFO,3.3,432969.15,9.06,2,MEDIUM
+108,Michelle Cherry,VP of Product,3.3,286934.20,8.27,2,MEDIUM
+123,Jonathan Fletcher,Marketing Manager,4.0,159049.65,11.26,2,MEDIUM
+183,Brittany Rivas,Customer Success Manager,4.3,176757.19,7.15,2,MEDIUM
+45,Tiffany Patel,Legal Director,4.3,195146.58,9.15,2,MEDIUM
+90,Cheryl Archer,Operations Analyst,3.0,102110.00,2.28,2,MEDIUM
+92,Sarah Garcia,Operations Manager,3.8,194906.56,9.0,2,MEDIUM
+153,Jimmy Rogers,Operations Manager,3.8,193549.38,9.92,2,MEDIUM
+209,James Rodgers,Ops Coordinator,3.8,296234.76,6.58,2,MEDIUM
+166,Brittany Alvarado,Senior Counsel,3.0,180808.98,9.86,2,MEDIUM
+193,Marcus Sanchez,Senior AE,3.8,178253.22,9.81,2,MEDIUM
+230,Ricky Norris,Senior Analyst,3.0,82366.21,3.29,2,MEDIUM
+286,Monique Johnson,VP of Sales,3.0,260094.80,10.12,2,MEDIUM
+291,Brandon Flynn,COO,3.0,349564.90,6.29,2,MEDIUM
+318,Linda Mcdonald,Marketing Coordinator,3.3,410541.73,10.01,2,MEDIUM
+319,Donald Levy,CS Specialist,4.3,88411.33,4.52,2,MEDIUM
+322,Amanda Gibson,Senior PM,3.0,149270.24,6.82,2,MEDIUM
+354,Kevin Schneider,HR Coordinator,4.0,306088.74,10.76,2,MEDIUM
+376,Lindsay Bruce,CMO,3.3,381243.06,10.84,2,MEDIUM
+409,Jessica Fuentes,COO,4.3,417868.14,8.77,2,MEDIUM
+410,Joel Thomas,Data Science Manager,4.0,163192.33,7.93,2,MEDIUM
+425,Susan Hayes,CMO,3.8,350609.19,5.44,2,MEDIUM
+467,Samantha Kennedy,HR Coordinator,3.3,427164.84,8.92,2,MEDIUM
+495,Lauren Kim,Senior Data Engineer,3.7,138413.36,4.48,2,MEDIUM
+189,Ryan Cox,Talent Acquisition,3.5,102240.21,3.46,2,MEDIUM
+41,Carol Burns,VP of Product,3.0,302448.84,9.38,2,MEDIUM
+145,Steven Grant,VP of Product,3.5,258244.10,9.22,2,MEDIUM
+24,Richard Jones,Marketing Manager,3.5,165641.43,5.93,2,MEDIUM
+66,Brent Kidd,CS Team Lead,3.0,178188.74,11.04,2,MEDIUM
+80,Beth Williams,Senior CSM,3.5,147474.85,9.89,2,MEDIUM
+103,Russell Williams,Senior Counsel,3.3,165137.52,5.08,2,MEDIUM
+131,Richard Bass,Senior Counsel,3.5,178551.58,6.11,2,MEDIUM
+85,Albert Howell,COO,4.0,335520.64,9.58,2,MEDIUM
+178,Gary Lawson,Ops Coordinator,4.3,401937.21,9.34,2,MEDIUM
+179,Kimberly Martin,COO,3.5,429419.46,5.99,2,MEDIUM
+217,Taylor Alexander,Operations Manager,3.5,179874.93,8.15,2,MEDIUM
+257,David Dudley,VP of Product,4.0,279106.73,7.21,1,LOW
+304,Andrew Greer,Legal Director,4.0,213920.76,4.55,1,LOW
+308,Jeffery Lee,Senior PM,3.3,173301.72,7.02,1,LOW
+328,Debra Wilson,Analytics Engineer,3.8,151304.14,10.52,1,LOW
+369,Angela Willis,Senior Counsel,3.8,157988.78,5.67,1,LOW
+403,Christopher Richard,Sales Manager,4.5,166066.33,7.15,1,LOW
+407,William Wilson,Operations Manager,5.0,201355.58,2.61,1,LOW
+408,James Parsons,Operations Manager,3.5,152014.32,5.31,1,LOW
+413,Steven Elliott,CS Team Lead,3.0,199014.34,3.64,1,LOW
+434,Mathew Aguilar,Finance Manager,3.0,151128.04,8.88,1,LOW
+440,Michael Cox,CS Team Lead,3.5,185392.70,8.22,1,LOW
+443,Chris Richard,COO,4.3,455620.50,9.56,1,LOW
+446,Carla Moore,Product Manager,3.5,157835.34,8.21,1,LOW
+458,Jennifer Black,Marketing Coordinator,4.0,312078.54,9.16,1,LOW
+463,Brian Shaw,Data Science Manager,3.5,176328.76,7.27,1,LOW
+67,Tanya House,Analytics Engineer,4.0,149636.34,7.26,1,LOW
+25,Jason Porter,CFO,3.5,348561.63,3.47,1,LOW
+56,Jason Anderson,Marketing Manager,3.5,175695.08,3.24,1,LOW
+148,Ronald Meadows,VP of Sales,3.5,299630.75,3.7,1,LOW
+52,Brianna Hall,Customer Success Manager,3.5,162913.34,7.54,1,LOW
+101,Daniel Landry,Legal Director,3.5,210670.94,8.75,1,LOW
+150,Shannon Walton,Operations Manager,4.0,142681.32,6.56,1,LOW
+246,Tanya Harrison,CS Team Lead,3.3,205014.79,4.33,1,LOW
+260,Steven Wilson,Data Engineer,3.8,148518.57,8.67,1,LOW
+266,Joshua Tyler,VP of Product,4.0,256956.75,4.22,1,LOW
+271,Michael Arnold,Operations Manager,3.0,174495.62,4.87,1,LOW
+285,Stephanie Sims,Senior CSM,4.0,164083.46,2.98,1,LOW
+310,Courtney Berger,CS Team Lead,4.0,182311.43,10.62,1,LOW
+311,Kyle Alexander,Legal Director,3.5,204589.46,5.07,1,LOW
+335,Jeff Wallace,Finance Manager,3.8,200712.41,7.27,1,LOW
+399,Michelle Johnston,CMO,3.3,393864.87,4.4,1,LOW
+424,Marc Alvarez,Customer Success Manager,3.3,145870.25,8.72,1,LOW
+428,Alexandria Bishop,Ops Coordinator,3.5,402746.77,5.09,1,LOW
+466,Lacey Taylor,Product Manager,3.8,192048.32,6.4,1,LOW
+250,Shawn Edwards,Software Engineer,4.5,148417.89,5.78,1,LOW
+43,John Allen,VP of Product,4.0,345030.22,9.95,1,LOW
+48,Tamara Hickman,Product Manager,3.0,156123.89,7.86,1,LOW
+106,Elizabeth Gomez,VP of Product,3.3,255162.28,4.37,1,LOW
+99,Dana Green,Marketing Coordinator,4.0,410149.39,3.76,1,LOW
+159,Thomas Bender,Sales Manager,4.0,153386.77,6.2,1,LOW
+127,Jennifer Evans,Senior CSM,3.8,161024.18,6.02,1,LOW
+81,Robert Silva,Legal Director,3.0,251681.44,2.39,1,LOW
+4,Brittany Johnson,Senior Counsel,4.0,172323.67,9.69,1,LOW
+205,Angela Cooper,Sales Manager,3.5,143225.81,5.65,1,LOW
+264,Patrick Weeks,Senior PM,4.0,156499.40,2.63,1,LOW
+302,Melissa Rodriguez,Finance Manager,3.0,153597.85,4.79,1,LOW
+315,Alyssa Mcintyre,CS Team Lead,3.3,189616.84,8.48,1,LOW
+334,Sheila Ramirez,COO,3.3,462757.05,4.98,1,LOW
+355,Bruce Mendoza,Marketing Manager,4.0,182180.27,4.45,1,LOW
+366,Gloria Wells,VP of Product,3.3,341441.89,9.73,1,LOW
+380,Molly Knight,Finance Manager,3.0,163263.42,4.46,1,LOW
+391,Randall Greene,Ops Coordinator,3.3,456145.36,11.16,1,LOW
+438,Lisa Santiago,Ops Coordinator,4.0,392689.30,2.33,1,LOW
+454,Wesley Barnes,COO,4.8,431554.20,8.53,1,LOW
+483,Michael Quinn,Marketing Coordinator,3.8,304659.28,9.52,1,LOW
+208,Leslie Newton,VP of Product,4.0,345999.55,8.13,1,LOW
+224,Kimberly James,VP of Product,3.5,346640.47,3.75,1,LOW
+79,Richard David,Senior AE,3.8,142215.93,7.1,1,LOW
+144,Kimberly Robinson,Senior AE,3.0,151037.71,2.47,1,LOW
+77,Susan Miller,Customer Success Manager,3.8,173003.70,8.12,1,LOW
+167,Dawn Taylor,CS Team Lead,3.0,191024.44,3.43,1,LOW
+191,Tammy Nelson,Senior CSM,5.0,185337.40,3.05,1,LOW
+10,Curtis James,Operations Manager,3.0,164735.96,5.18,1,LOW
+49,Jennifer Ross,Ops Coordinator,3.3,373985.42,4.93,1,LOW
+162,Tracy Nelson,Senior Counsel,4.0,149997.63,3.02,1,LOW
+200,Christopher Cortez,Finance Manager,4.0,179282.79,2.97,1,LOW
+211,Candice Hooper,Marketing Coordinator,3.3,440648.90,7.98,1,LOW
+236,Brian Sparks,Marketing Coordinator,4.3,429837.14,6.37,1,LOW
+251,Darrell Barton,Operations Manager,5.0,199274.53,2.53,1,LOW
+258,Jennifer Collins,Ops Coordinator,3.0,362318.18,11.05,1,LOW
+270,Michelle Griffin,VP of Product,4.0,274448.73,3.04,1,LOW
+272,Stanley Morris,Senior CSM,4.0,143823.80,8.07,1,LOW
+281,Robert Pena,COO,3.3,387948.82,8.66,1,LOW
+283,Matthew Schwartz,Senior AE,3.5,164097.11,9.92,1,LOW
+309,Erica Le,COO,3.5,341920.24,8.96,1,LOW
+356,Ronald Rodriguez,HR Manager,3.5,185410.67,3.73,1,LOW
+382,Christopher Moreno,CMO,4.3,460055.28,4.88,1,LOW
+386,Emily Nelson,Ops Coordinator,3.0,392144.28,4.07,1,LOW
+422,Betty Best,Operations Manager,3.5,175900.02,10.59,1,LOW
+441,Stephanie Peterson,CFO,3.0,383503.99,3.01,1,LOW
+448,Jennifer Williams,Tech Lead,3.0,184017.42,5.08,1,LOW
+450,Cheryl Goodwin,CFO,3.0,307820.46,3.64,1,LOW
+469,Rebecca Smith,COO,3.3,366783.76,7.61,1,LOW
+488,Lisa Brown,CMO,4.0,461717.56,3.5,1,LOW
+489,Benjamin Harris,Marketing Coordinator,4.0,363230.25,7.89,1,LOW
+490,Nina Stewart,Legal Director,4.0,186761.58,6.01,1,LOW
+160,Karen Castaneda,HR Coordinator,3.3,333127.13,4.15,1,LOW
+269,Mary Carpenter,HR Coordinator,4.0,381602.04,2.95,1,LOW
+89,Samuel Daniels,Finance Manager,3.5,145842.23,6.14,1,LOW
+129,Angela Lee,Finance Manager,5.0,153592.18,4.83,1,LOW
+204,Kevin Perkins,VP of Product,3.5,236028.51,3.23,1,LOW
+215,Heidi Martinez,VP of Product,3.0,344771.13,2.93,1,LOW
+8,Katherine Moore,Marketing Coordinator,4.0,359139.77,4.09,1,LOW
+27,Julie Patterson,Sales Manager,3.3,144967.00,4.49,1,LOW
+34,Erin Wilson,VP of Sales,3.5,255980.79,6.75,1,LOW
+238,Holly Bender,Senior CSM,3.0,145538.86,2.77,0,LOW
+273,Tina Allen,VP of Product,3.7,345109.61,4.77,0,LOW
+452,Rebecca Lee,Tech Lead,4.0,195786.64,3.79,0,LOW
+115,Jeffrey Keller,CMO,3.7,424681.38,4.5,0,LOW
+181,Barbara Odonnell,VP of Sales,3.0,306118.40,4.9,0,LOW
+461,Christopher Lozano,Senior PM,4.5,164350.41,3.61,0,LOW
+470,Mary Dunn,Operations Manager,4.0,197220.18,2.3,0,LOW
+478,Alexandra Ward,Sales Manager,4.0,180132.56,2.33,0,LOW
+6,Anna Baldwin,Software Engineer,4.3,147887.03,4.15,0,LOW
+62,John Lee,Senior Engineer,4.5,147365.24,3.65,0,LOW
+165,Tina Ferguson,CS Team Lead,4.0,161853.45,4.58,0,LOW
+210,Jenny Bray,Senior AE,5.0,171290.87,2.36,0,LOW
+296,Jesse Little,VP of Product,3.0,340309.24,3.46,0,LOW
+472,Kevin Williams,CS Team Lead,4.0,160400.45,4.14,0,LOW
+219,Danny Jones,Customer Success Manager,3.0,161628.70,2.92,0,LOW
+332,Brenda Barber,VP of Sales,3.7,346391.92,4.22,0,LOW
+451,Jesus Allen,Marketing Coordinator,4.0,368253.43,3.3,0,LOW
+460,Shannon Palmer,VP of Sales,3.5,298981.36,3.84,0,LOW
+462,Nicole Arias,HR Coordinator,4.0,410878.43,4.22,0,LOW
+479,Amy Hartman,Tech Lead,4.0,186198.52,2.64,0,LOW
+147,Stephanie Vance,HR Manager,3.0,159544.39,2.69,0,LOW
+149,Phyllis Manning,Senior PM,4.0,166313.17,3.21,0,LOW
+112,Patrick Williams,CS Team Lead,3.0,195978.59,3.27,0,LOW

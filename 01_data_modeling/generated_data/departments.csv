@@ -1,0 +1,11 @@
+department_id,department_name,location,manager_id,created_at
+1,Engineering,New York,3,2026-04-05 21:50:04.217687
+2,Data & Analytics,San Francisco,9,2026-04-05 21:50:04.217687
+3,Human Resources,Seattle,28,2026-04-05 21:50:04.217687
+4,Finance,Chicago,2,2026-04-05 21:50:04.217687
+5,Product Management,Chicago,15,2026-04-05 21:50:04.217687
+6,Marketing,Austin,7,2026-04-05 21:50:04.217687
+7,Sales,New York,1,2026-04-05 21:50:04.217687
+8,Customer Success,Bangalore,11,2026-04-05 21:50:04.217687
+9,Legal,New York,4,2026-04-05 21:50:04.217687
+10,Operations,Toronto,5,2026-04-05 21:50:04.217687
